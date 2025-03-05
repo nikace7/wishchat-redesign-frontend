@@ -25,7 +25,7 @@ const Navbar = () => {
         <img src={logo} className="h-28 w-28" />
       </div>
 
-      <div className="flex items-center justify-center gap-12 py-3 font-sans text-xl">
+      <div className="flex items-center justify-center gap-12 py-3 font-sans text-lg">
         <Link to="/">
           <button className="hover:text-blue-400">Home</button>
         </Link>
@@ -35,6 +35,15 @@ const Navbar = () => {
         <Link to="/dashboard/teammates">
           <button className="hover:text-blue-400">Teammates</button>
         </Link>
+        {/* <Link to="/dashboard/playground">
+          <button className="hover:text-blue-400">Playground</button>
+        </Link>
+        <Link to="*">
+          <button className="hover:text-blue-400">Deploy</button>
+        </Link>
+        <Link to="/dashboard/build">
+          <button className="hover:text-blue-400">Build</button>
+        </Link> */}
         <button
           className="hover:text-blue-400"
           onClick={() => navigate("/pricing")}
