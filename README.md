@@ -2,6 +2,8 @@
 
 Modern, multi-channel AI chatbot builder and embeddable web widget platform built with **React 19**, **Tailwind CSS v4**, and **Vite 6**.
 
+> The frontend code was written by [jATM0S](https://github.com/jATM0S) (47 of the 51 commits). I wrote this README and removed the committed `.env`.
+
 <br/>
 
 [![React](https://img.shields.io/badge/React-19.0-15181e?style=flat-square&logo=react&logoColor=f7f5f1)](https://react.dev)
